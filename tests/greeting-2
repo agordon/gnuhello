@@ -8,6 +8,15 @@
 # are permitted in any medium without royalty provided the copyright
 # notice and this notice are preserved.
 
+echo "======= Hello from Greeting-2 ========"
+echo "=== ENV ==="
+env | sort
+echo
+echo "=== which hello = '$(which hello)' ==="
+echo
+echo "======= Goodbyefrom Greeting-2 ========"
+exit 1
+
 trap 'rm -fr $tmpfiles' 1 2 3 15
 
 tmpfiles="greeting-test2.ok"
