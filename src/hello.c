@@ -140,6 +140,10 @@ Print a friendly, customizable greeting.\n"), stdout);
   -t, --traditional       use traditional greeting\n\
   -g, --greeting=TEXT     use TEXT as the greeting message\n"), stdout);
 
+  printf(_("\n\
+Example:\n\
+  %s -t\n"), program_name);
+
   printf ("\n");
   /* TRANSLATORS: --help output 5+ (reports)
      TRANSLATORS: the placeholder indicates the bug-reporting address
